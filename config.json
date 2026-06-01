@@ -1,0 +1,24 @@
+{
+  "output_directory": "output",
+  "timeout": 10,
+  "retries": 3,
+  "max_items": 100,
+  "extraction": {
+    "main_ul_selector": "ul:has(> li > a)",
+    "max_links_per_page": 50
+  },
+  "classification": {
+    "priority": {
+      "live_tv": 10,
+      "news": 20,
+      "video": 30,
+      "article": 40
+    },
+    "categories": {
+      "live_tv": ["live", "tv", "stream", "watch now"],
+      "news": ["news", "breaking", "headline", "update"],
+      "video": ["video", "watch", "play", "episode"],
+      "article": ["article", "blog", "post", "story"]
+    }
+  }
+}
