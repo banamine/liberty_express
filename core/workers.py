@@ -2,7 +2,7 @@
 QThread workers for background processing
 """
 
-from PyQt6.QtCore import QThread, pyqtSignal
+from PySide6.QtCore import QThread, pyqtSignal
 import threading
 import logging
 import json

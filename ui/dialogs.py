@@ -2,8 +2,8 @@
 Custom dialog windows for Liberty Express
 """
 
-from PyQt6.QtWidgets import QDialog, QVBoxLayout, QTextEdit, QPushButton, QApplication
-from PyQt6.QtCore import Qt
+from PySide6.QtWidgets import QDialog, QVBoxLayout, QTextEdit, QPushButton, QApplication
+from PySide6.QtCore import Qt
 
 class ContentViewerDialog(QDialog):
     """Dialog for viewing content with copy capability"""

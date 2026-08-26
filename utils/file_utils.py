@@ -4,7 +4,7 @@ File handling utilities with locking
 
 import os
 import logging
-from PyQt6.QtCore import QLockFile
+from PySide6.QtCore import QLockFile
 
 logger = logging.getLogger(__name__)
 

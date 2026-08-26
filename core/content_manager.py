@@ -3,7 +3,7 @@ Content classification and organization logic
 """
 
 from enum import Enum
-from PyQt6.QtCore import QReadWriteLock, QWriteLocker, QReadLocker
+from PySide6.QtCore import QReadWriteLock, QWriteLocker, QReadLocker
 import logging
 
 logger = logging.getLogger(__name__)
